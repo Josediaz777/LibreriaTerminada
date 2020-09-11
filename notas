@@ -1,0 +1,48 @@
+Realizar una aplicación para simular un sistema de control de una librería
+
+clase libro
+    Título
+    Autor
+    ID    
+
+    método para dar de alta libros nuevos
+    método para eliminar libros
+    método para modificar un libro
+    método para búsquedas
+
+
+    los métodos serán realizados mediante la propiedad ID
+    /////////////////////////////////////////////////////
+
+    local storange = nos permite almacenar datos que persisten sin importar que el navegador se cierre o el equipo se apague.
+
+    los datos almacenados se identifican por medio de un key(clave) y un valor tiene un rango de almacenamiento de hasta 5MB.
+
+    la informacion se almacena directamente en el navegador 
+
+    A diferencia de cookies no se envía como petición HTTP (al servidor)
+
+    LOCALSTORAGE no elimina informacion de forma automatica a diferencia de SESSION STORAGE 
+
+     0 1 2
+    [1,2,4] lenght = 3-1
+    ['','','']
+    [true,false,true]
+
+
+    Object Persona
+    [{nombre:'',apellido:'',}, {nombre:'',apellido:'',}, {nombre:'',apellido:'',}, {nombre:'',apellido:'',}]
+
+    ////////////////////////////////////////////////////////////////////
+    un array de Objetos se llama JSON
+
+    |  |  Jose Manuel   |
+    .trim() método de JS corta los espacios vacíos a la izquierda y derecha de un String
+
+    ////////////////////////////////////////////////////////////////////
+    fistChild: regresa el primer nodo Hijo del elemento al que se aplica
+        <tr><a></a></tr> tr.fisrtChild => <a></a>
+//////////////////////////////////////////////////////
+
+Vaciar Localstorage:
+LocalStorage.clear()

@@ -82,4 +82,8 @@ class LocalStorageOperation {
 
             return band;
         }
+
+        static modificarLibro(titulo, autor){
+            
+        }
 }
